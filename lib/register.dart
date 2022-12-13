@@ -1,13 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
-class MyRegister extends StatefulWidget {
+class MyRegister extends StatelessWidget {
   const MyRegister({Key? key}) : super(key: key);
 
-  @override
-  _MyRegisterState createState() => _MyRegisterState();
-}
-
-class _MyRegisterState extends State<MyRegister> {
   @override
   Widget build(BuildContext context) {
     return Container(
